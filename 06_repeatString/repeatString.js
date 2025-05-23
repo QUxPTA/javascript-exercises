@@ -1,5 +1,5 @@
 const repeatString = function (str, times) {
-  if (times <= 0) return 'Something Went Wrong';
+  if (times < 0) return 'ERROR';
   let string = '';
   for (let i = 0; i < times; i++) {
     string += str;
